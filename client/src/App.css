@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+body {
+    background: rgb(54,217,182);
+    background: linear-gradient(90deg, #F44336 0%, #E91E63 43%, #2196F3 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#task-container{
+    max-width:600px;
+    margin:0 auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #fff;
+    
+    margin-top:70px;
+    margin-bottom:100px;
+  
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 8px;
+  
+  }
+  
+#form-wrapper{
+    border-radius: 8px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0rem;
+    border-bottom: 1px solid  #e9e9e9;
+    background-color: #fff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    padding:40px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  
+  #submit{
+    margin-left: 10px;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    width: 100px;
+  }
+  .btn-custom {
+    background-color: #673AB7;
+  }
+  .flex-wrapper{
+    display: flex;
+  }
+  
+  .task-wrapper{
+      cursor: pointer;
+      border-bottom: 1px solid  #e9e9e9;
+      color: #686868;
+      margin:5px;
+      padding:20px;
+  }
+  
+  .task-wrapper:hover{
+      background-color: #F0F0F0;
+  }
+  .custom-icon {
+    border: 2px solid #fed2d2;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 107px;
+    cursor: pointer;
+  }
+  .cart-title {
+    font-family: 'Lobster', cursive;
+  }
+  .task-form {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  .container {
+    padding-right: 7px;
+    padding-left: 7px;
+  }
